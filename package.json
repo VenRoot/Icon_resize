@@ -1,0 +1,37 @@
+{
+	"name": "installgnomeicons",
+	"version": "0.0.2-rc3",
+	"type": "module",
+	"main": "./bin/src/index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"bin":{
+		"installgnomeicons": "./bin/src/index.js"
+	},
+	"preferGlobal": true,
+	"bugs": {
+		"url": "https://github.com/VenRoot/icon_resize/issues",
+		"email": "0ventox0@gmail.com"
+	},
+	"packageManager": "pnpm@7.18.2",
+	"author": {
+		"name": "Ven Wolf",
+		"email": "0ventox0@gmail.com"
+	},
+	"license": "GPL-3.0",
+	"homepage": "https://githb.com/VenRoot/icon_resize",
+	"keywords": ["icons", "gnome", "resize", "png", "applications", "linux"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VenRoot/icon_resize.git"
+	},
+	"dependencies": {
+		"sharp": "^0.31.2",
+		"yargs": "^17.6.2"
+	},
+	"devDependencies": {
+		"@types/sharp": "^0.31.0",
+		"@types/yargs": "^17.0.17"
+	}
+}
